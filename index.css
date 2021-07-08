@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    /* border: solid 1px black; */
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', cursive;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    width: 60%;
+    margin: 20px auto;
+}
+
+nav a {
+    display: inline-block;
+
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    position: relative;
+    font-size: 15px;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+a:first-child {
+    background-color: #FF764E;
+}
+
+a:nth-child(2) {
+    background-color: #5ED3EB;
+    margin: 0 110px 0 110px;
+}
+
+a:last-child {
+    background-color: 
+    #FFCD69;
+}
+
+a:hover {
+    background-color: dimgrey;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+header img {
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 30px;
+}
+
+header h1 {  
+    margin: 50px 0px 10px 0px;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 45px;
+}
+
+.firstP {
+    margin: 15px 0px 0px 20px;
+}
+
+.secondP {
+    margin: 15px 160px 0px 160px;
+}
+
+.container {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 40px;
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.thirdP {
+    margin: 0 0 15px;
+}
+
+.container2 img{
+    display: block;
+    height: 100px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 8px auto;
+}
+
+.container2 p {
+    display: block;
+    width: 255px;
+    margin: 0 auto 40px auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+footer img {
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: left top;
+}
+
+footer{
+    background-color: #F9E7DC;
+    padding-bottom: 5px;
+}
